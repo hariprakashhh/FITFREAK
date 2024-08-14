@@ -1,0 +1,142 @@
+
+.workout-page {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #f9f9f9; 
+}
+
+.workout-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+  width: 250px;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+}
+
+
+.category-image {
+  width: 100%;
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 10px 10px 0 0; 
+}
+
+
+.category-content {
+  padding: 10px;
+  text-align: center; 
+}
+
+.category-content h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #000;
+}
+
+.category-content p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+
+.workouts-grid {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.workouts-grid h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+
+.workouts-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+.workout-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  transition: transform 0.3s ease;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.workout-card:hover {
+  transform: translateY(-10px);
+}
+
+
+.workout-image {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+
+.workout-content {
+  padding: 20px;
+}
+
+.workout-content h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.workout-content p {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Optional: Add a separator line */
+.workout-content::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+
+/* Video Container */
+.video-container {
+  margin-top: 15px;
+}

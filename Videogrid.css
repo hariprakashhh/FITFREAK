@@ -1,0 +1,26 @@
+.video-gridb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .video-containerb {
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .videob {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .videob[controls] {
+    object-fit: contain;
+  }
+  
